@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "electron main.js"
+    "start": "electron main.js",
+    "build": "electron-packager . SimpleTimer --platform win32 --version=1.6.4 --iccon Icon.ico --out ./d --overwrite"
   },
-  "author": "Dariel",
-  "license": "GPL-3.0"
+  "author": "Dariel https://github.com/DarFig",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron-packager": "^8.6.0"
+  }
 }

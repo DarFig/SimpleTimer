@@ -1,6 +1,6 @@
 # Simple Timer using Electron
 
-###what is this?
+### what is this?
 This is a simple timer, created using Electron.
 
 ### Requirements
