@@ -1,0 +1,40 @@
+
+.letra {
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.principal {
+    background: #2e2e2e;
+    color:#FEFEFE;
+}
+
+.cuerpo {
+    background: #1e1e1e;
+}
+
+.centrado {
+    width: 50%;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.titulo {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+}
+
+.reloj{
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    width: 50%;
+    margin:auto;
+}
+
+.botones {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    background: rgba(50, 50, 50, 0.5);
+    margin: 0;
+    padding: 1%;
+}
