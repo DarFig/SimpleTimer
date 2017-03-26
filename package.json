@@ -1,15 +1,20 @@
 {
   "name": "simpletimer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Timer using Electron",
+  "main": "main.js",
   "scripts": {
-    "start": "electron main.js",
-    "build": "electron-packager . SimpleTimer --platform win32 --version=1.6.4 --iccon Icon.ico --out ./d --overwrite"
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+      "appId": "com.github.DarFig.SimpleTimer",
+      "productName": "NucelarSimpleTimer"
   },
   "author": "Dariel https://github.com/DarFig",
   "license": "GPL-3.0",
   "devDependencies": {
-    "electron-packager": "^8.6.0"
+    "electron": "^1.6.2"
   }
 }
