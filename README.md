@@ -10,7 +10,7 @@ This is a simple timer, created using Electron.
 ### Package and installer
    npm install -g electron-builder
    and use: build -<option>
-                    -w --windows
-                    -l --linux
-                    -m --mac
-                    etc -h
+    -w --windows
+    -l --linux
+    -m --mac
+    etc -h
