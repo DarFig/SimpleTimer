@@ -10,7 +10,8 @@ function arranque(){
     minutos = 0;
     s = document.getElementById("seg");
     m = document.getElementById("min");
-
+	m.innerHTML = minutos;
+	s.innerHTML = segundos;
     cronotick = setInterval(
         function(){
             if(segundos==60){
