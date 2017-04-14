@@ -8,6 +8,7 @@ This is a simple timer, created using Electron.
  - npm install electron
 
 ### Package and installer
+ - npm install -g asar
  - npm install -g electron-builder
  - and use: build -<option>
  - -w --windows
